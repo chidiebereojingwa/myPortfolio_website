@@ -1,0 +1,106 @@
+*{
+  box-sizing: border-box;
+  margin: 0; 
+  padding: 0;
+}
+
+body{
+  background-image: url(images/header.png);
+  background-size: cover; 
+  height: 100vh;
+  font-family: poppins;  
+  font-weight: 500;
+  font-size: 15px;
+}
+
+a{
+  overflow-x: 299px;
+  overflow-y: 648.28px;
+  width: 4.97px;
+  height: 13.72px;
+ }
+
+header{
+display: flex;
+justify-content: space-between;
+align-items: center; 
+padding: 25px 248px;
+}
+
+.logo {
+  cursor: pointer;
+  width: 76px;
+  height: 30px;
+}
+
+nav ul {
+  list-style: none;
+}
+
+nav li {
+  display: inline-block;
+
+}
+
+nav li a {
+  text-decoration: none; 
+  transition: .1s;
+  color: blue;
+
+}
+
+nav li a:hover {
+  color:#e02131;
+}
+
+.wrapper{
+  padding: 359px 260px 435px 260px;
+}
+
+.upper {
+width: 920px;
+height: 122px;
+font-family: Poppins, sans-serif;
+font-style: bold;
+font-size: 25px; 
+line-height: 60px;
+line-height: 83%;
+align-items: after;
+vertical-align: top; 
+letter-spacing: 2px;
+}
+
+.lower {
+  font-family: Poppins, sans-serif;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 28px;
+  letter-spacing: 0;
+  text-align: left;
+  vertical-align: top;
+}
+
+.connect {
+  height: 24px;
+  width: 117px;
+  left: 0;
+  top: 0;
+  border-radius: 5px;
+}
+
+.connect h3 {
+  font-family: "Poppins", sans-serif;
+  font-size: 16px; 
+  line-height: 24px;
+  line-height: 100%;
+  align-items: after;
+  vertical-align: top;
+  color: #1024db;  
+}
+
+.apps li {
+  display: inline-block;
+}
+
+
