@@ -9,6 +9,10 @@
   left: 0;
 }
 
+ul {
+  list-style-type: none;
+}
+
 .flex-nav ul {
   justify-content: space-between;
   list-style: none;
@@ -121,10 +125,6 @@
   order: 3;
   flex-grow: 0;
   margin: 12px 0;
-}
-
-ul {
-  list-style-type: none;
 }
 
 .fa {
