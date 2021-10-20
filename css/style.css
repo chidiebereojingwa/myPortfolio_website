@@ -123,6 +123,10 @@
   margin: 12px 0;
 }
 
+ul {
+  list-style-type: none;
+}
+
 .fa {
   color: white;
   text-decoration: none;
