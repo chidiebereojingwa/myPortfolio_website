@@ -280,23 +280,23 @@ body {
 }
 
 .second {
-  margin-top: -191px;
+  margin-top: -62px;
 }
 
 .third {
-  margin-top: -391px;
+  margin-top: -238px;
 }
 
 .fourth {
-  margin-top: -390px;
+  margin-top: -236px;
 }
 
 .fifth {
-  margin-top: -394px;
+  margin-top: -239px;
 }
 
 .sixth {
-  margin-top: -399px;
+  margin-top: -235px;
 }
 
 .proArt {
@@ -372,8 +372,7 @@ body {
   flex-wrap: wrap;
   width: 375px;
   height: 1901px;
-  left: 0;
-  top: 3922px;
+  top: 3976px;
   flex-direction: column;
   background: #1c1a19;
   background-image: url("../assets/Frame.png");
@@ -650,6 +649,16 @@ body {
 }
 
 .project:active {
+  background-color: #e05304;
+  color: #f4f1f0;
+}
+
+.seeProject:hover {
+  background-color: #fff5e1;
+  color: #f55800;
+}
+
+.seeProject:active {
   background-color: #e05304;
   color: #f4f1f0;
 }
