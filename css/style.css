@@ -248,6 +248,8 @@ body {
   margin-left: 40px;
   padding: 12px;
   cursor: pointer;
+  text-decoration: none;
+  color: #fff;
 }
 
 .stack {
@@ -266,7 +268,7 @@ body {
   display: flex;
   flex-direction: column;
   align-items: flex-start;
-  padding-top: 34px;
+  padding-top: 20px;
   position: static;
   width: 375px;
   height: 585px;
@@ -633,19 +635,23 @@ body {
 }
 
 .button:hover {
-  background-color: #ff6b00;
+  background-color: #fff5e1;
+  color: #f55800;
 }
 
 .button:active {
-  background-color: #ff6b00;
+  background-color: #e05304;
+  color: #f4f1f0;
 }
 
 .project:hover {
-  background-color: #ff6b00;
+  background-color: #fff5e1;
+  color: #f55800;
 }
 
-.seeProject:hover {
-  background-color: #ff6b00;
+.project:active {
+  background-color: #e05304;
+  color: #f4f1f0;
 }
 
 ul {
