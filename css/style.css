@@ -135,7 +135,7 @@ body {
 .fa {
   color: white;
   text-decoration: none;
-  font-size: 25px;
+  font-size: 27px;
 }
 
 .item-2 {
@@ -332,7 +332,7 @@ body {
   padding-top: 15px;
   padding-bottom: 15px;
   padding-left: 104px;
-  padding-right: 131px;
+  padding-right: 132px;
   text-align: center;
   text-decoration: none;
   margin-top: 6px;
@@ -371,7 +371,7 @@ body {
   padding: 120px 24px;
   flex-wrap: wrap;
   width: 375px;
-  height: 1901px;
+  height: 1571px;
   top: 3976px;
   flex-direction: column;
   background: #1c1a19;
@@ -680,4 +680,103 @@ ul {
 .skillElement {
   margin-left: -30px;
   margin-top: -33px;
+}
+
+#contact-form {
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  top: 5787px;
+  width: 375px;
+  height: 780px;
+  padding: 120px 24px 5px 24px;
+}
+
+#contact-ul {
+  padding-left: 13px;
+}
+
+#contact-form article {
+  font-family: Inter;
+  text-align: center;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 38px;
+  line-height: 39px;
+}
+
+#contact-form li input {
+  border: none;
+  border-bottom: 1px solid black;
+  padding-bottom: 14px;
+}
+
+#full-name {
+  padding-left: 9px;
+  padding-right: 173px;
+  padding-top: 25px;
+}
+
+#email {
+  padding-top: 26px;
+  padding-bottom: 12px;
+  padding-right: 173px;
+  padding-left: 10px;
+}
+
+#message {
+  margin-top: 21px;
+  padding-top: 5px;
+  padding-bottom: 47px;
+  padding-right: 183px;
+  padding-left: 12px;
+  background-color: #fbf8f7;
+}
+
+#button {
+  font-family: Inter,sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 17px;
+  padding-top: 16px;
+  padding-bottom: 16px;
+  padding-left: 24px;
+  padding-right: 24px;
+  text-align: center;
+  text-decoration: none;
+  margin-top: 12px;
+  margin-left: 93px;
+  color: #ffffff;
+  background-color: #ff6b00;
+  cursor: pointer;
+  border: none;
+}
+
+#button:hover {
+  background-color: #fff5e1;
+  color: #f55800;
+}
+
+#button:active {
+  background-color: #e05304;
+  color: #f4f1f0;
+}
+
+.footer {
+  position: absolute;
+  top: 6650px;
+  width: 375px;
+}
+
+#line {
+  border: 1px solid black;
+  width: 375px}
+
+.soc {
+  color: #505f79;
+  font-size: 5px;
+}
+
+.soc1 {
+  padding-left: 77px;
 }
