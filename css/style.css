@@ -186,6 +186,11 @@ body {
   margin-right: auto;
 }
 
+.firstProjectImg:hover {
+  transition: transform 0.95s;
+  transform: scale(1.07);
+}
+
 .multi {
   font-family: Crete Round, sans-serif;
   font-style: normal;
